@@ -58,6 +58,27 @@ body {
     float: none;
   }
 }
+      figure {
+  border: thin #c0c0c0 solid;
+  display: flex;
+  flex-flow: column;
+  padding: 5px;
+  max-width: 220px;
+  margin: auto;
+}
+
+img {
+  max-width: 220px;
+  max-height: 150px;
+}
+
+figcaption {
+  background-color: #222;
+  color: #fff;
+  font: italic smaller sans-serif;
+  padding: 3px;
+  text-align: center;
+}
 </style>
   </head>
   <body>
@@ -71,10 +92,25 @@ body {
   </div>
 </div>
     <div style="padding-left:20px">
-  <h1>One</h1>
-  <h2>Two</h2>
-  <h3>Three</h3>
-      <p>test</p>
+  <h1>Games</h1>
+      <!-- code taken from: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption -->
+      <div role="group">
+<figure>
+  <a href="https://elidianesampaiotrabuco.github.io/MarioRipoff/">
+  <img
+    src="https://placehold.jp/190x150.png"
+    alt="Placeholder game icon" />
+  </a>
+  <figcaption>Mario Ripoff by freddyguythe10th (Forked by me to celebrate its late 4th anniversary)</figcaption>
+</figure>
+        <figure>
+  <img
+    src="https://placehold.jp/190x150.png"
+    alt="Placeholder game icon" />
+  </a>
+  <figcaption>Test Game (unclickable)</figcaption>
+</figure>
+      </div>
 </div>
   </body>
 </html>
