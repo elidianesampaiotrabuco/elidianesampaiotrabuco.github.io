@@ -3,17 +3,32 @@
 <head>
 <meta http-equiv="refresh" content="93; URL='/main.html'"/>
 <style>
-/*
-video {
-    object-fit: fill;
+.video-wrapper {
+	width:50%;
+	margin:auto;
 }
-*/
+.video-inner {
+	padding-top:56.25%;
+	position:relative;
+	height:0;
+}
+.vid {
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+}
 </style>
 </head>
 <body>
- <video height="600" width="600" autoplay style="position: absolute; right: 0; top: 0; min-width:100%; z-index: 100; object-fit: cover;">
+<div class="video-wrapper">
+<div class="video-inner">
+ <video class="vid" autoplay>
   <source src="vids/2025-12-28 15-06-00.mp4" type="video/mp4">
 What the fuck!? No <p>&#60;</p>video<p>&#62;</p> tag support!?
 </video> 
+</div>
+</div>
 </body>
 </html>
