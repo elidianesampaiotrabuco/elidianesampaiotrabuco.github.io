@@ -1,2 +1,3 @@
 # Credits
-* Bad Piggies - Rovio
+* Bad Piggies - Rovio (Placeholder intro only)
+* Kalimba - Mr. Scruff
