@@ -13,15 +13,27 @@ table, th, td {
 }
 
 .status-green {
-background-color: green;
+background-color: lime;
+color:black;
 }
 
 .status-yellow {
-background-color: #8B8000;
+background-color: yellow;
+color:black;
 }
 
 .status-red {
 background-color: red;
+}
+
+.status-orange {
+background-color: orange;
+color:black;
+}
+
+.status-darkred {
+background-color: darkred;
+color:black;
 }
 </style>
 </head>
@@ -37,7 +49,7 @@ background-color: red;
   </tr>
   <tr>
     <td class="status-green">Available</td>
-    <td>0</td>
+    <td>25</td>
     <td>The video is available on YouTube (or another site).</td>
   </tr>
   <tr>
@@ -56,9 +68,19 @@ background-color: red;
     <td>The video is close to being fully found.</td>
   </tr>
   <tr>
+    <td class="status-orange">Screenshot only</td>
+    <td>0</td>
+    <td>The video is missing, but a single screenshot of the video was found.</td>
+  </tr>
+  <tr>
     <td class="status-red">Missing</td>
     <td>0</td>
     <td>The video is yet to be found/lost.</td>
+  </tr>
+  <tr>
+    <td class="status-darkred">Lost forever</td>
+    <td>0</td>
+    <td>The video is completely lost to time, and would never be found.</td>
   </tr>
 </table>
 </center>
