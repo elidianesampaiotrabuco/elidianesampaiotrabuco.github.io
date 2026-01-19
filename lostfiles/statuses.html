@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Statuses - The Lost Files</title>
+<style>
+body {
+  background-color: black;
+  color: white;
+}
+
+table, th, td {
+  border: 1px solid white;
+}
+
+.status-green {
+background-color: green;
+}
+
+.status-yellow {
+background-color: yellow;
+}
+
+.status-red {
+background-color: red;
+color: white;
+}
+</style>
+</head>
+<body>
+<center>
+<h1>Statuses</h1>
+<br/>
+<table>
+  <tr>
+    <th>Status</th>
+    <th>No. of videos (per channel)</th>
+    <th>Note</th>
+  </tr>
+  <tr>
+    <td class="status-green">Available</td>
+    <td>0</td>
+    <td>The video is available on YouTube (or another site).</td>
+  </tr>
+  <tr>
+    <td class="status-yellow">Restored</td>
+    <td>0</td>
+    <td>A different video has used the missing video and it was attempted to be restored from it.</td>
+  </tr>
+  <tr>
+    <td class="status-yellow">Partially found</td>
+    <td>0</td>
+    <td>The video wouldn't be fully found.</td>
+  </tr>
+  <tr>
+    <td class="status-yellow">Kind of found</td>
+    <td>0</td>
+    <td>The video is close to being fully found.</td>
+  </tr>
+  <tr>
+    <td class="status-red">Missing</td>
+    <td>0</td>
+    <td>The video is yet to be found/lost.</td>
+  </tr>
+</table>
+</center>
+</body>
+</html>
