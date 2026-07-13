@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Statuses - The Lost Files</title>
+<style>
+body {
+  background-color: black;
+  color: white;
+}
+
+@font-face {
+  font-family: 'Fingerpop';
+  src: url('https://static.wfonts.com/data/2015/03/11/fingerpop/Fingerpop.woff') format('woff');
+  font-display: swap;
+}
+
+table, th, td {
+  border: 1px solid white;
+}
+
+.status-green {
+background-color: lime;
+color:black;
+}
+
+.status-yellow {
+background-color: yellow;
+color:black;
+}
+
+.status-red {
+background-color: red;
+}
+
+.status-orange {
+background-color: orange;
+color:black;
+}
+
+.status-darkred {
+background-color: darkred;
+color:black;
+}
+
+.status-gamboge {
+background-color: #E49B0F;
+}
+
+.status-fuchsia {
+background-color: fuchsia;
+color:black;
+}
+
+.tlf-font {
+font-family: 'Fingerpop';
+}
+</style>
+</head>
+<body>
+<center>
+<h1 class="tlf-font">Statuses</h1>
+<br/>
+<table>
+  <tr>
+    <th>Status</th>
+    <th>No. of videos (per channel)</th>
+    <th>Note</th>
+  </tr>
+  <tr>
+    <td class="status-green">Available</td>
+    <td>1</td>
+    <td>The video is available on YouTube (or another site).</td>
+  </tr>
+  <tr>
+    <td class="status-yellow">Restored</td>
+    <td>1</td>
+    <td>A different video has used the missing video and it was attempted to be restored from it.</td>
+  </tr>
+  <tr>
+    <td class="status-yellow">Partially found</td>
+    <td>2</td>
+    <td>The video wouldn't be fully found.</td>
+  </tr>
+  <tr>
+    <td class="status-yellow">Kind of found</td>
+    <td>0</td>
+    <td>The video is close to being fully found.</td>
+  </tr>
+  <tr>
+    <td class="status-orange">Screenshot only</td>
+    <td>0</td>
+    <td>The video is missing, but a single screenshot of the video was found.</td>
+  </tr>
+  <tr>
+    <td class="status-gamboge">Gatekeeped</td>
+    <td>0</td>
+    <td>The video will never be found for reasons.</td>
+  </tr>
+  <tr>
+    <td class="status-red">Missing</td>
+    <td>37</td>
+    <td>The video is yet to be found.</td>
+  </tr>
+  <tr>
+    <td class="status-darkred">Lost forever</td>
+    <td>0</td>
+    <td>The video is completely lost to time, and would never be found.</td>
+  </tr>
+  <tr>
+    <td class="status-fuchsia">N/A</td>
+    <td>-</td>
+    <td>Placeholder status. Appears without text.</td>
+  </tr>
+</table>
+</center>
+</body>
+</html>
